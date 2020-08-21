@@ -1,0 +1,75 @@
+
+.members{
+    background-color: #D74680;
+}
+.title h3{
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #e0caca;
+}
+.title p{
+    letter-spacing: 0;
+}
+.hr2{
+    width: 90px;
+    border-bottom: 2px solid #B73C6D;
+}
+.circle-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+}
+small{
+    color: #FFDD99;
+}
+.media-body h5{
+    font-weight: bold;
+}
+.about-ceo{
+    font-style: italic;
+    font-size: 17px;
+    color: #fff;
+}
+.contact-us{
+    background-color: #3C5499;
+}
+.contact-line{
+    border-color: #273A71;
+}
+.button button {
+    width: 200px;
+    height: 55px;
+    border-bottom: 4px solid #299EC5;
+    background-color: #30BAE7;
+}
+input, textarea{
+    background: #0000002e !important;
+    border: none !important;
+}
+input::placeholder, textarea::placeholder{
+    color: #fff !important;
+}
+footer{
+    background-color: #344B8E;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY START */
+@media(max-width: 425px){
+    form{
+        margin-left: -25px;
+    }
+    .button button{
+        margin-left: -42% !important;
+    }
+}
+/* MEDIA QUERY END */

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUDA - The psd convert</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1a2984d1a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/progressBar.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR SECTION -->
+    <section class="head-nav">
+        <nav class="navbar navbar-dark navbar-expand-md pt-3">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img class="img-fluid" src="./image/logo.png" alt="Cuda.com">
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" data-target="#navbarNav" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#header">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">SERVICES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center p-5">
+                    <h1 style="font-weight: bold;" class="h3 text-light text-center">Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
+                    <div class="button py-5">
+                        <button class="btn">WORK WITH US!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES SECTION -->
+    <section class="service-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center p-5">
+                    <div class="ser-title text-center">
+                        <h1 style="font-weight: bold;" class="h3">SERVICE WE PROVIDE</h1>
+                        <hr/>
+                    </div>
+                    <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos delectus quaerat, facilis recusandae officia aspernatur!</p>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-md-3 text-center">
+                    <img class="ser-img mb-3" src="./image/ser-1.png" alt="">
+                    <h5>BRANDING</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quasi!</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="ser-img mb-3" src="./image/ser-2.png" alt="">
+                    <h5>DESIGN</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quasi!</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="ser-img mb-3" src="./image/ser-5.png" alt="">
+                    <h5>DEVELOPMENT</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quasi!</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="ser-img mb-3" src="./image/ser-4.png" alt="">
+                    <h5>ROCKET SERVICE</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, quasi!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TEAM SECTION -->
+    <section class="team-ser">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center py-4">
+                    <div class="title">
+                        <h2>MEET OUR BEAUTIFUL TEAM</h2>
+                        <hr>
+                    </div>
+                    <div class="team-content">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img class="team-img img-fluid rounded-circle" src="./image/t-2.png" alt="pic">
+                    <h4>Ali Hassan</h4>
+                    <h5>CEO/Owner</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, nam?</p>
+                    <div class="icon">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <img class="team-img img-fluid rounded-circle" src="./image/t-1.jpg" alt="pic">
+                    <h4>Lily withee</h4>
+                    <h5>Service in Charge</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, nam?</p>
+                    <div class="icon">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <img class="team-img img-fluid rounded-circle" src="./image/t-3.jpg" alt="pic">
+                    <h4>Tomas Metewee</h4>
+                    <h5>Head of Designer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, nam?</p>
+                    <div class="icon">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <img class="team-img img-fluid rounded-circle" src="./image/t-4.jpg" alt="pic">
+                    <h4>Mark Adison</h4>
+                    <h5>Co-writer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, nam?</p>
+                    <div class="icon">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SKILL PROGRESS BAR SECTION -->
+    <section class="skill py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-4">
+                    <div class="title">
+                        <h2>WE GOT SKILL!</h2>
+                        <hr>
+                    </div>
+                    <div class="skill-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, ex! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                   <svg class="radial-progress web" data-percentage="85" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                    </svg>
+                    <h4>UI/UX</h4> 
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <svg class="radial-progress app" data-percentage="70" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                    </svg>
+                    <h4>GRAPHIC DESIGN</h4>
+                </div>
+                <div class="col-6 col-md-3">
+                    <svg class="radial-progress grapic" data-percentage="85" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                    </svg>
+                    <h4>HTML/CSS</h4>
+                </div>
+                <div class="col-6 col-md-3">
+                    <svg class="radial-progress ui" data-percentage="90" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                    </svg>
+                    <h4>WEB DESIGN</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PORTFOLIO SECTION -->
+    <section class="protfolio py-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 text-center
+                pb-2">
+                    <div class="title">
+                        <h2>OUR PORTFOLIO</h2>
+                        <hr>
+                    </div>
+                    <div class="skill-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Repudiandae similique natus, earum corporis cum suscipit
+                        </p>
+                    </div>
+                </div>
+                <div id="mid-nav" class="col-md-12 pb-4">
+                    <nav class="navbar navbar-expand navbar-light justify-content-center">
+                        <div class="" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a style="background-color: transparent !important;" class="nav-item nav-link bg-light all-btn active">ALL</a>
+                            <a class="nav-item nav-link web-btn">WEBS</a>
+                            <a class="nav-item nav-link app-btn">APPS</a>
+                            <a class="nav-item nav-link icon-btn">ICONS</a>
+                          </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-center scroll app">
+                    <img class="prt-img img-fluid" src="./image/prt-1.png" alt="">
+                    <h6 class="py-4">Lorem ipsum dolor sit amet.</h6>
+                </div>
+
+                <div class="col-md-6 text-center scroll app">
+                    <img class="prt-img img-fluid" src="./image/prt-2.png" alt="">
+                    <h6 class="py-4">Lorem ipsum dolor sit amet.</h6>
+                </div>
+
+                <div class="col-md-6 text-center scroll web">
+                    <img class="prt-img img-fluid" src="./image/prt-3.png" alt="">
+                    <h6 class="py-4">Lorem ipsum dolor sit amet.</h6>
+                </div>
+
+                <div class="col-md-6 text-center scroll web icons">
+                    <img class="prt-img img-fluid" src="./image/prt-4.png" alt="">
+                    <h6 class="py-4">Lorem ipsum dolor sit amet.</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-md-12 text-center">
+                    <button class="btn btn-lg btn-info mr-2"><h6 class="m-0">LOAD MORE PROJECTS</h6></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PEOPLES COMMENT SECTION -->
+    <section class="members pb-5">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-12 text-center">
+                    <div class="title">
+                        <h3>WHAT PEOPLE SAY ABOUT US!</h3>
+                        <hr class="hr2">
+                    </div>
+                    <p class="text-light">Our clients love us!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pb-4">
+                    <div class="media">
+                        <img class="circle-img mr-3" src="./img/ceo-pinterest.jpg" class="mr-3" alt="...">
+                        <div class="media-body">
+                            <p class="about-ceo">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, culpa deleniti dolore delectus error    tempore commodi voluptatum? Aliquid, eos ipsa."</p>
+                            <h5 class="mt-0">Ben Silbermann</h5>
+                            <small>CEO of pinterest</small>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 pb-4">
+                    <div class="media">
+                        <img class="circle-img mr-3" src="./img/ceo-instagram.jpg" class="mr-3" alt="...">
+                        <div class="media-body">
+                            <p class="about-ceo">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, culpa deleniti dolore delectus error    tempore commodi voluptatum? Aliquid, eos ipsa."</p>
+                            <h5 class="mt-0">Kevin Systrom</h5>
+                            <small>FOUNDER of Instagram</small>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 pb-4">
+                    <div class="media">
+                        <img class="circle-img mr-3" src="./img/lead-designer.jpg" class="mr-3" alt="...">
+                        <div class="media-body">
+                            <p class="about-ceo">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, culpa deleniti dolore delectus error    tempore commodi voluptatum? Aliquid, eos ipsa."</p>
+                            <h5 class="mt-0">Thomas Le Corre</h5>
+                            <small>Lead Designer at Behance</small>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 pb-4">
+                    <div class="media">
+                        <img class="circle-img mr-3" src="./img/ceo-shazam.jpg" class="mr-3" alt="...">
+                        <div class="media-body">
+                            <p class="about-ceo">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, culpa deleniti dolore delectus error    tempore commodi voluptatum? Aliquid, eos ipsa."</p>
+                            <h5 class="mt-0">Dhiraj Mukherjee</h5>
+                            <small>Co-founder of Shazam</small>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTCT US SECTION -->
+    <section class="contact-us py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 py-3 text-center">
+                    <div class="title">
+                        <h3>GET IN TOUCH</h3>
+                        <hr class="contact-line">
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, facilis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-2 col-md-8">
+                    <form class="col-sm-12">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-6 mb-4">
+                            <input type="text" class="form-control text-light" placeholder="Your Name*">
+                          </div>
+                          <div class="col-sm-12 col-md-6 mb-4">
+                            <input type="text" class="form-control text-light" placeholder="Your Email*">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="col-12 form-control text-light" id="exampleFormControlTextarea1" rows="6" placeholder="Your Massage*"></textarea>
+                        </div>
+                      </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-5 col-md-4">
+                    <div class="button">
+                        <button class="btn btn-bg btn-info m-auto">SEND MASSAGE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Facebook</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Twitter</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Instagram</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Github</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Google+</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Linkedin</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#">Behance</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./progressBar.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
